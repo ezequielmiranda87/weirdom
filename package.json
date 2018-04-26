@@ -1,0 +1,31 @@
+{
+  "name": "weirdom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma Weirdo",
+  "main": "dist/src/weirdom.js",
+  "scripts": {
+    "build": "babel  src/weirdom.js -d  dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezequielmiranda87/weirdom.git"
+  },
+  "keywords": [
+    "weirdom",
+    "js",
+    "javascript"
+  ],
+  "author": "Ezequiel Miranda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezequielmiranda87/weirdom/issues"
+  },
+  "homepage": "https://github.com/ezequielmiranda87/weirdom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
